@@ -1,9 +1,9 @@
 package JavaEssential.hw1.t2;
 
-public class Author extends Title{
+public class Author {
     private String author;
 
-    public String getAuthor() {
+     public String getAuthor() {
         return author;
     }
 

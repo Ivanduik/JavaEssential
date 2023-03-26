@@ -1,6 +1,6 @@
 package JavaEssential.hw1.t2;
 
-public class Title extends Content {
+public class Title  {
     private String title;
     public String getTitle() {
         return title;

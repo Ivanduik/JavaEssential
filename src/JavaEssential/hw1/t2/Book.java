@@ -1,5 +1,11 @@
 package JavaEssential.hw1.t2;
-public class Book  extends  Author{
+
+public class Book {
+    private final Author author = new Author();
+
+    private final Content content = new Content();
+
+    private final Title title = new Title();
     private String book;
 
     public String getBook() {
@@ -10,17 +16,18 @@ public class Book  extends  Author{
         this.book = book;
     }
 
+
     static public void main(String[] arg) {
-        Book book=new Book();
+        Book book = new Book();
         book.setBook("Java");
-        book.setAuthor("Bert Bates , Kathy Sierra");
-        book.setTitle("Head First Java");
-        book.setContent("Between Moore's law and the notion of \"Internet time,\" " +
+        book.author.setAuthor("Bert Bates , Kathy Sierra");
+        book.title.setTitle("Head First Java");
+        book.content.setContent("Between Moore's law and the notion of \"Internet time,\" " +
                 "we're constantly being bombarded with more and more information--" +
                 "most of it in the form of disorganized data");
-        System.out.println("Book - "+book.getBook());
-        System.out.println("Author  - "+book.getAuthor());
-        System.out.println("Title - "+book.getTitle());
-        System.out.println("Content - "+book.getContent());
+        System.out.println("Book - " + book.getBook());
+        System.out.println("Author  - " + book.author.getAuthor());
+        System.out.println("Title - " + book.title.getTitle());
+        System.out.println("Content - " + book.content.getContent());
     }
 }

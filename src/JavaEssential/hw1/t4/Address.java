@@ -3,8 +3,9 @@ package JavaEssential.hw1.t4;
 public class Address {
     int index;
     String country, city, street, house, apartment;
-Address(){
-}
+
+    public Address() {
+    }
 
 
     public Address(int index, String country, String city, String street, String house, String apartment) {
@@ -62,5 +63,9 @@ Address(){
 
     public void setApartment(String apartment) {
         this.apartment = apartment;
+    }
+    public String toPrint(){
+        return "Index- "+this.index+"\n"+"Country - "+this.country+"\n"+"City - "+this.city+"\n"
+                +"Street - "+this.street+"\n"+"House - "+this.house+"\n"+"Apartment - "+this.apartment;
     }
 }

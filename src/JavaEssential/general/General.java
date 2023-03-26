@@ -3,8 +3,8 @@ package JavaEssential.general;
 import java.util.Scanner;
 
 public class General {
-    public static double inDouble(){
-        Scanner in=new Scanner(System.in);
+    static Scanner in = new Scanner(System.in);
+    public static double inDouble() {
         return in.nextDouble();
     }
 
