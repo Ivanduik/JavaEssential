@@ -1,0 +1,15 @@
+https://docs.oracle.com/javase/tutorial/java/concepts/inheritance.html
+общие принципы наследования
+
+https://docs.oracle.com/javase/tutorial/java/IandI/index.html
+более подробно про интерфейсы и наследование,
+сказано про суперклассы полиморфизм
+
+https://docs.oracle.com/javase/tutorial/java/IandI/polymorphism.html
+ про полиморфизм описание как можно менять методы и аргументы
+ https://docs.oracle.com/javase/tutorial/java/javaOO/variables.html
+ модификаторы доступа
+
+ https://docs.oracle.com/cd/E92519_02/pt856pbr3/eng/pt/tpcr/task_Downcasting-0716ba.html
+ доункастинг приводим базовый тип к производному типу, по сути скрываем поля и методи класса, ну или оставляем тольке которые нужны.
+ Апкастинг, приводим экземпляр к базовому типу
