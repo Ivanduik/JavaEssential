@@ -7,5 +7,9 @@ public class General {
     public static double inDouble() {
         return in.nextDouble();
     }
+    public static String inString() {
+        return in.next();
+    }
+
 
 }
