@@ -1,7 +1,7 @@
 package JavaEssential.hw3.t2;
 
 public class ClassRoom {
-    private Pupil[] pupils;
+    private final Pupil[] pupils;
 
     public ClassRoom(Pupil[] pupils) {
         this.pupils = new Pupil[pupils.length];
