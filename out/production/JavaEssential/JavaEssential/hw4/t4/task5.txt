@@ -1,0 +1,8 @@
+https://docs.oracle.com/javase/tutorial/java/IandI/abstract.html
+тут рассказано про абстрактные классы и интерфейсы
+отличие между ними, небольшие примеры использование.
+
+
+https://docs.oracle.com/javase/specs/jls/se7/html/jls-9.html#jls-9.1
+https://docs.oracle.com/javase/tutorial/java/IandI/createinterface.html
+тут описаны подробно работа с интерфейсами, тонкости работы, перезагрузки, объявление....
