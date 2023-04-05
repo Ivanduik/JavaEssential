@@ -1,14 +1,15 @@
 package JavaEssential.hw5.t2;
 
 import java.util.ArrayList;
+import java.util.List;
 import java.util.ListIterator;
 
 public class Zoo {
-    private ArrayList<Animal> animal;
+    private final List<Animal> animal;
 
     public Zoo() {
         animal = new ArrayList<>();
-    }
+            }
 
     public Zoo(int size) {
         animal = new ArrayList<>(size);

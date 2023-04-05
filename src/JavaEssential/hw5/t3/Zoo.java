@@ -1,6 +1,7 @@
 package JavaEssential.hw5.t3;
 
 import java.util.ArrayList;
+import java.util.List;
 
 public class Zoo {
     private ArrayList<Animal> animal;

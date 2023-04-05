@@ -1,0 +1,4 @@
+https://docs.oracle.com/javase/tutorial/java/javaOO/classvars.html
+общие сведения об использование классов
+https://docs.oracle.com/javase/tutorial/java/javaOO/nested.html
+про использование вложенных статичных классов
