@@ -3,6 +3,7 @@ package JavaEssential.hw5.t6;
 import JavaEssential.hw4.t2.AbstractHandler;
 
 import java.util.ArrayList;
+import java.util.List;
 
 public class Main {
     public static int minLikeIndex(ArrayList<Teacher> teach) {
