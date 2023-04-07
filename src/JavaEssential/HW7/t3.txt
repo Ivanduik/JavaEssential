@@ -1,0 +1,4 @@
+https://docs.oracle.com/javase/tutorial/java/javaOO/anonymousclasses.html
+тут сказано про анонимные классы, как они реализуются, что можно что нельзя делать с ними.
+https://docs.oracle.com/javase/tutorial/java/javaOO/enum.html
+тут про перечисляемые типы, опасано что это, как с ними работать, приведены примеры
