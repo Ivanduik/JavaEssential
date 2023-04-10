@@ -3,8 +3,8 @@ package JavaEssential.HW7.t2;
 public class Main {
     enum Animals {
         Bear("Be", 5), Elephant("Ele", 10), Giraffe("Gir", 7), Crocodile("Cro", 3), Fox("Xof", 1);
-         int year;
-        String name;
+        int year;
+        final String name;
 
         Animals(String name, int year) {
             this.name = name;
@@ -14,9 +14,11 @@ public class Main {
         public int getYear() {
             return year;
         }
-        public  void setYear(int year){
-            this.year=year;
+
+        public void setYear(int year) {
+            this.year = year;
         }
+
         public String getName() {
             return name;
         }
@@ -28,16 +30,16 @@ public class Main {
     }
 
     public static void main(String[] args) {
-        Animals animal= Animals.Bear;
+        Animals animal = Animals.Bear;
         animal.setYear(55);
         System.out.println(animal.toString());
         System.out.println("Name " + animal.getName());
         System.out.println("Year " + animal.getYear());
-        animal= Animals.Fox;
+        animal = Animals.Fox;
         System.out.println(animal.toString());
         System.out.println("Name " + animal.getName());
         System.out.println("Year " + animal.getYear());
-        animal= Animals.Giraffe;
+        animal = Animals.Giraffe;
         System.out.println(animal.toString());
         System.out.println("Name " + animal.getName());
         System.out.println("Year " + animal.getYear());

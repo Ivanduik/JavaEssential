@@ -25,7 +25,7 @@ public class Distance {
     }
 
 
-    static class Converter {
+    public class Converter {
         private double distance = 0;
         private String numStr;
         private double distanceInM = 0;
