@@ -1,10 +1,12 @@
-package JavaEssential.hw9.t2;
+package JavaEssential.hw9.t3;
 
 public class Device {
     private String manufacturer;
     private float price;
     private String serialNumber;
+    public Device(){
 
+    }
     public Device(String manufacturer, float price, String serialNumber) {
         this.manufacturer = manufacturer;
         this.price = price;
@@ -34,11 +36,14 @@ public class Device {
     public void setSerialNumber(String serialNumber) {
         this.serialNumber = serialNumber;
     }
+
+    @Override
     public String toString() {
-        return "Monitor:" +
+        return "Device:" +
                 " Manufacturer - " + getManufacturer()
                 + ", price - " + getPrice()
                 + ", serialNumber = " + getSerialNumber();
-
     }
+
+
 }
