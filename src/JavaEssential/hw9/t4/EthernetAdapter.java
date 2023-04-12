@@ -1,4 +1,4 @@
-package JavaEssential.hw9.t3;
+package JavaEssential.hw9.t4;
 
 public class EthernetAdapter extends Device {
     private String model;
